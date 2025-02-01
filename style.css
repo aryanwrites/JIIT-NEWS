@@ -169,6 +169,8 @@ nav img{
   padding: 1.5rem;
   border-radius: 10px;
   backdrop-filter: blur(5px);
+
+  /* overflow-y: auto; */
 }
 
 .event-item {
@@ -180,14 +182,36 @@ nav img{
 }
 
 .event-item:hover {
+  z-index: 99;
   transform: translateX(-10px);
   background-color: #004e92;
 }
-.counter {
-  font-size: 3rem;
-  font-weight: bold;
-  color: #ffffff;
+
+.event-details{
+  left: 300px;
+  top: -40px;
+  display: none;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  /* border: 1px solid black; */
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 0.3 ease;
 }
+.det1{background-image: url(assets/event_pic/codeascend.jpg);}
+.det2{background-image: url(assets/event_pic/hackstreet.jpg);}
+.det3{background-image: url(assets/event_pic/electrosphere.jpg);}
+.det4{background-image: url(assets/event_pic/ideatex.jpg);}
+
+.event-item:hover .event-details{
+  display: block;
+  opacity: 1;
+
+}
+
+
+
 
 .clubs-section {
   margin-top: 2rem;
