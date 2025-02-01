@@ -122,6 +122,12 @@ nav img{
 .slide1 .image { background-image: url(assets/news1.jpg); }
 .slide2 .image { background-image: url(assets/news2.jpg); }
 .slide3 .image { background-image: url(assets/news3.jpg); }
+.slide4 .image { background-image: url(assets/news4.jpg); }
+.slide5 .image { background-image: url(assets/news5.jpg); }
+.slide6 .image { background-image: url(assets/news6.jpg); }
+.slide7 .image { background-image: url(assets/news7.jpg); }
+.slide8 .image { background-image: url(assets/news8.jpg); }
+.slide9 .image { background-image: url(assets/news9.jpg); }
 
 @keyframes slideIn {
   0% {
@@ -135,6 +141,7 @@ nav img{
 }
 
 .captions p {
+  font-size: 1.3rem;
   opacity: 0;
   transform: translateY(20px);
 }
