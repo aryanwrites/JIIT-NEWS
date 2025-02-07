@@ -173,8 +173,14 @@ nav img{
   /* overflow-y: auto; */
 }
 
+.upcoming-events-img img{
+  width: 70px;
+}
+
 .event-item {
   padding: 1rem;
+  display: flex;
+
   background: rgba(255, 255, 255, 0.1);
   margin-bottom: 1rem;
   border-radius: 5px;
